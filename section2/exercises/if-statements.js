@@ -41,15 +41,15 @@ Log to the console the appropriate age range
 (puppy, adult, elderly).
 */
 
-var dogAge = 3;
+var dogAge = 8;
 // Write your conditional here
 
 if (dogAge <= 2) {
   console.log("puppy");
-} else if (dogAge > 2) {
-  console.log("adut dog");
 } else if (dogAge >= 10) {
   console.log("elderly dog");
+} else {
+  console.log("adult dog");
 }
 
 /*
@@ -69,10 +69,10 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 4;
 
 // Write your conditional here
-if (numQuarters === 2) {
+if (numQuarters >= 2) {
   console.log("I have enough money for a gumball");
 } else {
   console.log("I don't have enough money for a gumball");
